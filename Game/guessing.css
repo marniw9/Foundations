@@ -1,0 +1,115 @@
+body {
+	background-image: url("http://i63.tinypic.com/2qdmul4.png");
+	background-repeat: repeat;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 500px;
+	height: 490px;
+	background-color: white;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 3px solid #001e4d;
+}
+
+p {
+	font-color: #001433;
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+}
+
+#num {
+	width: 250px; 
+	height: 125px;
+	padding: 10px;
+	font-size: 3em;
+}
+
+#head {
+	position: relative;
+	left: -20px;
+	background-color: #001e4d;
+	width: 540px;
+	padding-top:27px;
+	padding-bottom: 27px;
+}
+
+header {
+	color: white;
+	font-size: 3em;
+	font-family: Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#submitdiv {
+	position: relative;
+	top:65px;
+	left: -110px;
+	background-color: #001e4d;
+	width: 200px;
+	margin: auto;
+	height: 40px;
+}
+
+#guess {
+	background-color: #001e4d;
+	color: green;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 6px;
+}
+
+#givediv {
+	position: relative;
+	top:25px;
+	left: 110px;
+	background-color: #001e4d;
+	width: 200px;
+	margin: auto;
+	height: 40px;
+}
+
+#end {
+	background-color: #001e4d;
+	color: red;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 6px;
+}
+
+#startdiv {
+	position: relative;
+	top:46px;
+	left: 0px;
+	background-color: #001e4d;
+	width: 200px;
+	margin: auto;
+	height: 40px;
+}
+
+#again {
+	background-color: #001e4d;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 6px;
+}
+
